@@ -1,15 +1,18 @@
+import java.util.Scanner;
+
 public class ComparisonOperators {
     public static void main(String[] args) {
-        int firstNumber = 4;
-        int secondNumber = 6;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int firstNumber = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int secondNumber = scanner.nextInt();
 
-
-
-        System.out.println(firstNumber > secondNumber);
-        System.out.println(firstNumber < secondNumber);
-        System.out.println(firstNumber >= secondNumber);
-        System.out.println(firstNumber <= secondNumber);
-        System.out.println(firstNumber == secondNumber);
-        System.out.println(firstNumber != secondNumber);
+        System.out.println("first number > second number " + (firstNumber > secondNumber));
+        System.out.println("first number < second number " + (firstNumber < secondNumber));
+        System.out.println("first number >= second number " + (firstNumber >= secondNumber));
+        System.out.println("first number <= second number " + (firstNumber <= secondNumber));
+        System.out.println("first number == second number " + (firstNumber == secondNumber));
+        System.out.println("first number != second number " + (firstNumber != secondNumber));
     }
 }
