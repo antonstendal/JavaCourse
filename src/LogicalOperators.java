@@ -1,10 +1,11 @@
+import java.util.Scanner;
+
 public class LogicalOperators {
     public static void main(String[] args) {
-
-        boolean firstValue = 2>1;
-        boolean secondValue = 2<1;
-        boolean thirdValue = 2==1;
-        boolean fourthValue = 2!=1;
+        boolean firstValue = 2 > 1;
+        boolean secondValue = 2 < 1;
+        boolean thirdValue = 2 == 1;
+        boolean fourthValue = 2 != 1;
 
         //"and" && -> true when ALL expressions are = true
         System.out.println(firstValue && secondValue); // false
@@ -20,5 +21,7 @@ public class LogicalOperators {
         System.out.println(!secondValue); //true
         System.out.println(!(firstValue || secondValue)); // false
         System.out.println(!(firstValue && secondValue)); // true
+
+
     }
 }
