@@ -20,6 +20,6 @@ public class Students {
     }
 
     public void enterEmail() {
-        System.out.println("My email is : " + indexNumber);
+        System.out.println("My email is : " + email);
     }
 }
