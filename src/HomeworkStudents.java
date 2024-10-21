@@ -30,6 +30,10 @@ public class HomeworkStudents {
         listStudent[2] = thirdStudent;
 
         for (int i = 0; i < listStudent.length; i++) {
+            listStudent[i].hello();
+            listStudent[i].logIn();
+            listStudent[i].enterEmail();
+            listStudent[i].enterIndexNumber();
         }
     }
 }
