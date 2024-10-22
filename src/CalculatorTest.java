@@ -3,17 +3,13 @@ import java.util.Scanner;
 public class CalculatorTest {
     public static void main(String[] args) {
         CalculatorHW calculatorHW = new CalculatorHW();
-        System.out.print("Please enter first number: ");
+        calculatorHW.firstNumber();
+        calculatorHW.secondNumber();
         calculatorHW.addition();
-        System.out.print("Please enter second number: ");
-        //calculatorHW.firstNumber();
-        //
-        //calculatorHW.secondNumber();
-
-        int subtraction;
-        int multiplication;
-        int division;
-        int mod;
+        calculatorHW.subtraction();
+        calculatorHW.multiplication();
+        calculatorHW.division();
+        calculatorHW.mod();
 
 
     }
