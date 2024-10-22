@@ -5,6 +5,17 @@ public class Cars {
     public int year;
     public int km;
 
+    public Cars(){
+
+    }
+
+    public Cars(String mark, String model, int year, int km){
+        this.mark = mark;
+        this.model = model;
+        this.year = year;
+        this.km = km;
+    }
+
     public void go() {
         System.out.println("go!");
     }
