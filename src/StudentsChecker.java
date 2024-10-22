@@ -1,11 +1,10 @@
 public class StudentsChecker {
     public static void main(String[] args) {
         String school = Students.nameOfSchool;
-        int startLessons = Students.theDateWhenStartLesson;
         Students firstStudent = new Students();
         Students secondStudent = new Students();
         Students thirdStudent = new Students();
-
+        Students.schoolInfo();
 
         firstStudent.name = "Mark";
         firstStudent.secondName = "Sheiko";
@@ -20,7 +19,6 @@ public class StudentsChecker {
         secondStudent.nickName = "freedom";
         secondStudent.email = "antonstendal19@gmail.com";
         secondStudent.indexNumber = "15061991";
-        int antonDatesStartLesson = Students.theDateWhenStartLesson;
 
         thirdStudent.name = "Liuba";
         thirdStudent.secondName = "Generalitska";
