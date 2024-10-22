@@ -6,6 +6,10 @@ public class Students {
     public String email;
     public String indexNumber;
 
+    public static String nameOfSchool = "School number 60";
+
+    public static int theDateWhenStartLesson = 1;
+
 
     public void hello() {
         System.out.println("My name is "+ name + ". My second name is " + secondName);
