@@ -9,11 +9,16 @@ public class Students {
     public static String nameOfSchool = "School number 60";
 
     public static void schoolInfo() {
-        System.out.println("My school is number 60");
+        System.out.println("My school is number " + nameOfSchool);
+        secondMethod();
+    }
+
+    public static void secondMethod(){
+        System.out.println("Hello from second method");
     }
 
     public void hello() {
-        System.out.println("My name is "+ name + ". My second name is " + secondName);
+        System.out.println("My name is " + name + ". My second name is " + secondName);
     }
 
     public void logIn() {
