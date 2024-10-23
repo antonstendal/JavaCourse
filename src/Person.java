@@ -9,7 +9,7 @@ public class Person {
     }
 
     public void eat(){
-        System.out.println("I like coffee");
+        System.out.println("I like pizza");
     }
     public void walk() {
         System.out.println("I like walking");
