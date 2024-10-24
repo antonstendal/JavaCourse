@@ -4,7 +4,6 @@ public class MathTeacher extends Person {
 
     public MathTeacher(String name, int age, String school) {
         super(name, age);
-        System.out.println("I am in constructor MathTeacher");
         this.school = school;
     }
 
