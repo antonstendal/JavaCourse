@@ -1,6 +1,6 @@
 package drivers;
 
-public class WebDriversTest {
+public class  WebDriversTest {
     public static void main(String[] args) {
 
         WebDriver driver = getDriver("fireFox");
